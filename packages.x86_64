@@ -10,3 +10,4 @@ mpv
 wget
 synaptic
 gtk3-nocsd
+--no-install-recommands
