@@ -13,7 +13,7 @@ rm -rf /tmp/gtk-keyboard-osk
 cd /tmp
 #### install deb files
 if [[ -d /debs ]] ; then
-    wget -O /debs/wps.deb https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/10976/wps-office_11.1.0.10976.XA_amd64.deb
+    #wget -O /debs/wps.deb https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/10976/wps-office_11.1.0.10976.XA_amd64.deb
     dpkg -i /debs/* || true
     apt install -f -y
     rm -rf /debs
