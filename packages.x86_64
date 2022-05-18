@@ -12,4 +12,6 @@ synaptic
 gtk3-nocsd
 e2fsprogs
 dosfstools
+network-manager
+plasma-nm
 --no-install-recommends
