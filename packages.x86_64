@@ -1,5 +1,6 @@
 grub-pc-bin
 grub-efi
+efibootmgr
 linux-image-amd64
 git
 make
@@ -14,4 +15,7 @@ e2fsprogs
 dosfstools
 network-manager
 plasma-nm
+qml-module-qt-labs-platform
+wpasupplicant
+gnome-themes-extra
 --no-install-recommends
