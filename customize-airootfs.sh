@@ -5,7 +5,7 @@ chmod +x /usr/bin/installer
 #### install osk
 cd /tmp
 apt install -f -y
-apt install gir1.2-gtk-3.0 python3-pynput console-setup -y
+apt install gir1.2-gtk-3.0 python3-pynput console-setup python3-gi python3-pip -y
 git clone https://gitlab.com/sulincix/gtk-keyboard-osk.git gtk-keyboard-osk
 cd gtk-keyboard-osk
 make install
