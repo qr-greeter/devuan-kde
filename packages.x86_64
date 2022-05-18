@@ -11,5 +11,5 @@ wget
 synaptic
 gtk3-nocsd
 e2fsprogs
-dosfsutils
+dosfstools
 --no-install-recommends
