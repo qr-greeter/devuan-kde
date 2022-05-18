@@ -1,0 +1,11 @@
+grub-pc-bin
+grub-efi
+linux-image-amd64
+git
+make
+chromium
+chromium-l10n
+pavucontrol
+mpv
+wget
+synaptic

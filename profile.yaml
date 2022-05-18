@@ -1,0 +1,23 @@
+name: devuan-kde
+distro: debian
+codename: testing
+publisher: Devuan GNU/Linux <https://debian.org>
+label: DEVUAN_TEAISO
+application_id: DEVUAN Linux Live/Rescue Media
+airootfs_directory_pre: airootfs
+#iso_merge: iso_merge
+arch: x86_64
+grub_cfg: grub.cfg
+linux_args: quiet init=/usr/bin/installer
+packages:
+ - packages.x86_64
+ - firmware.x86_64
+ - kde.x86_64
+file_permissions:
+ - /etc/shadow|0:0:400
+customize_airootfs_pre:
+ - accept-nonfree.sh
+customize_airootfs:
+ - customize-airootfs.sh
+ - wine.sh
+repository: https://pkgmaster.devuan.org/merged

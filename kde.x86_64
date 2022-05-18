@@ -1,0 +1,14 @@
+lsb-release
+plasma-desktop
+dolphin
+konsole
+kwin-x11
+dbus-x11
+qml-module-org-kde-newstuff
+systemsettings
+lightdm
+xserver-xorg
+xinit
+desktop-base
+okular
+ark
