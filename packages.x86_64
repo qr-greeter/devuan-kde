@@ -10,4 +10,6 @@ mpv
 wget
 synaptic
 gtk3-nocsd
+e2fsprogs
+dosfsutils
 --no-install-recommends
