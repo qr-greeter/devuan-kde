@@ -110,7 +110,7 @@ chroot /target chown $username /home/$username
 echo -e "$password\n$password\n" | chroot /target passwd $username
 echo -e "$password\n$password\n" | chroot /target passwd root
 # language settings (Turkish)
-echo "tr_TR.UTF-8" > /target/etc/locale.gen
+echo "tr_TR.UTF-8 UTF-8" > /target/etc/locale.gen
 echo "LANG=tr_TR.UTF-8" > /target/etc/default/locale
 echo "Europe/Istanbul" >> /target/etc/timezone
 ln -s ../usr/share/zoneinfo/Europe/Istanbul /target/etc/localtime
