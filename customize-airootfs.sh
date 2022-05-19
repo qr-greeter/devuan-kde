@@ -11,10 +11,19 @@ cd gtk-keyboard-osk
 make install
 rm -rf /tmp/gtk-keyboard-osk
 cd /tmp
+fetch(){
+    fname=$(wget -O - "$1"  | grep ".deb" | grep -v "~" | sort -V  | tail -n 1 | cut -f 2 -d "\"")
+    wget "$1"/"$fname"
+}
 #### install deb files
 if [[ -d /debs ]] ; then
-    #wget -O /debs/wps.deb https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/10976/wps-office_11.1.0.10976.XA_amd64.deb
+    # E-tahta
+    fetch https://depo.pardus.org.tr/pardus/pool/contrib/e/e-tahta/
+    fetch https://depo.pardus.org.tr/pardus/pool/main/p/pardus-pen/
     dpkg -i /debs/* || true
     apt install -f -y
     rm -rf /debs
 fi
+#### sh is bash
+rm -f /bin/sh
+ln -s bash /bin/sh

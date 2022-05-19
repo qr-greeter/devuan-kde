@@ -13,6 +13,7 @@ packages:
  - packages.x86_64
  - firmware.x86_64
  - kde.x86_64
+ - education.x86_64
 file_permissions:
  - /etc/shadow|0:0:400
 customize_airootfs_pre:
