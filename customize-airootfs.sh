@@ -20,6 +20,7 @@ if [[ -d /debs ]] ; then
     # E-tahta
     fetch https://depo.pardus.org.tr/pardus/pool/contrib/e/e-tahta/
     fetch https://depo.pardus.org.tr/pardus/pool/main/p/pardus-pen/
+    wget https://github.com/qr-greeter/qr-greeter/releases/download/current/etap-greeter_0.1.0_all.deb
     dpkg -i /debs/* || true
     apt install -f -y
     rm -rf /debs
