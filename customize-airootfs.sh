@@ -30,5 +30,4 @@ fi
 rm -f /bin/sh
 ln -s bash /bin/sh
 #### meb ssl
-wget https://sertifika.meb.gov.tr/MEB_SERTIFIKASI.cer -O /usr/share/ca-certificates/MEB_SERTIFIKASI.cer
 update-ca-certificates -v
