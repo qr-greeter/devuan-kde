@@ -15,7 +15,6 @@ gtk3-nocsd
 e2fsprogs
 dosfstools
 network-manager
-plasma-nm
 qml-module-qt-labs-platform
 wpasupplicant
 gnome-themes-extra
