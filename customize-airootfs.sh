@@ -31,3 +31,5 @@ rm -f /bin/sh
 ln -s bash /bin/sh
 #### meb ssl
 update-ca-certificates -v
+#### Touchegg service
+ln -s ../init.d/touchegg /etc/rc4.d/touchegg
