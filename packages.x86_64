@@ -19,4 +19,5 @@ plasma-nm
 qml-module-qt-labs-platform
 wpasupplicant
 gnome-themes-extra
+ntfs-3g
 --no-install-recommends
