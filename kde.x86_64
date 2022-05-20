@@ -8,6 +8,8 @@ qml-module-org-kde-newstuff
 systemsettings
 lightdm
 xserver-xorg
+xserver-xorg-input-multitouch
+xserver-xorg-input-evdev
 xinit
 desktop-base
 okular
