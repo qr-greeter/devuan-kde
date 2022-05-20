@@ -17,6 +17,7 @@ fetch(){
 }
 #### install deb files
 if [[ -d /debs ]] ; then
+    cd /debs
     # E-tahta
     fetch https://depo.pardus.org.tr/pardus/pool/contrib/e/e-tahta/
     fetch https://depo.pardus.org.tr/pardus/pool/main/p/pardus-pen/
