@@ -11,4 +11,5 @@ xserver-xorg
 xinit
 desktop-base
 okular
-ark
+ark p7zip zip unzip
+kate
