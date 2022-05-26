@@ -31,5 +31,6 @@ rm -f /bin/sh
 ln -s bash /bin/sh
 #### meb ssl
 update-ca-certificates -v
-#### Touchegg service
+#### services
 chmod +x /etc/rc.local
+update-rc.d rc.local enable 5

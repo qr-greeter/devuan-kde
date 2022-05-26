@@ -1,1 +1,2 @@
-touchegg --daemon
+#!/bin/bash
+touchegg --daemon &
