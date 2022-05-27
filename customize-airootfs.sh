@@ -35,3 +35,5 @@ update-ca-certificates -v
 #### services
 chmod +x /etc/rc.local
 update-rc.d rc.local enable 5
+#### e-tahta
+chmod +x /opt/e-tahta

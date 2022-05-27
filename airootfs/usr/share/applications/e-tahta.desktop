@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=E-tahta
+GenericName=e-tahta
+Comment=E tahta whiteboard
+TryExec=/opt/e-tahta
+Exec=/opt/e-tahta %F
+Terminal=true
+Type=Application
+Icon=
+Categories=Utility;
+StartupNotify=false

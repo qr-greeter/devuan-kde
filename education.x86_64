@@ -2,7 +2,6 @@ geogebra
 libreoffice-writer
 libreoffice-calc
 libreoffice-impress
-libreoffice-plasma
 libreoffice-l10n-tr
 # Missing dependencies
 libgtk2.0-0
