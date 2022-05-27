@@ -19,4 +19,5 @@ qml-module-qt-labs-platform
 wpasupplicant
 gnome-themes-extra
 ntfs-3g
+default-jdk
 --no-install-recommends
