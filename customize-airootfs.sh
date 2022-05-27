@@ -30,7 +30,7 @@ fi
 rm -f /bin/sh
 ln -s bash /bin/sh
 #### meb ssl
-openssl x509 -inform DER -in /usr/share/ca-certificates/MEB_SERTIFIKASI.cer -out /usr/share/ca-certificates/MEB_SERTIFIKASI.crt
+openssl x509 -inform DER -in /usr/local/share/ca-certificates/MEB_SERTIFIKASI.cer -out /usr/local/share/ca-certificates/MEB_SERTIFIKASI.crt
 update-ca-certificates -v
 #### services
 chmod +x /etc/rc.local
